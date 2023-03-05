@@ -23,6 +23,7 @@ public class ActionsDemo {
 	   act.moveToElement(serachBox).click().keyDown(Keys.SHIFT).sendKeys("akshay pawar").doubleClick().click().perform();
 //		serachBox.sendKeys(Keys.SHIFT,"apple");
 //		serachBox.sendKeys(Keys.ENTER);
+	   System.out.println("Hello");
 	   
 	  
 	   
