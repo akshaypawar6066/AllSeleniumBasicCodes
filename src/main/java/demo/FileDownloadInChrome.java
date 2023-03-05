@@ -27,7 +27,7 @@ public class FileDownloadInChrome {
 		driver.get("https://filesamples.com/formats/pdf");
 		System.out.println("Before download file exists:" + isFileExists(filePath+fileName));
 		driver.findElement(By.xpath("(//div[@id='output']//a)[1]")).click(); // Download file at default loaction.
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 		System.out.println("After download file exists:" + isFileExists(filePath+fileName));
 
 	}

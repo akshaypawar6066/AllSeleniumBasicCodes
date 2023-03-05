@@ -25,5 +25,17 @@
 			<artifactId>testng</artifactId>
 			<version>7.7.0</version>
 		</dependency>
+		<!--//Connection of java to MySQL -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.30</version>
+		</dependency>
+		<!--//Connection of java to MongoDB -->
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongo-java-driver</artifactId>
+			<version>3.12.10</version>
+		</dependency>
 	</dependencies>
 </project>
